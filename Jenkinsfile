@@ -8,6 +8,7 @@ pipeline {
         stage("source"){
               steps{
                  git branch: 'master' ,url:'https://github.com/tallahmad047/jenkinswebap.git'
+                 }
             }
         stage('Build') {
             steps {
