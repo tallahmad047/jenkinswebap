@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Build steps for your application
-                bat 'mvn clean'
+
                 bat 'mvn package'
             }
         }
